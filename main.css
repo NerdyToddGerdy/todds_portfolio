@@ -1,0 +1,245 @@
+body {
+  font-family: "Aleo Regular", arial;
+  background: #856335;
+  margin: 0;
+  height: 100%; }
+  body li {
+    list-style: none; }
+  body #main-logo {
+    width: 100%; }
+  body .hidden {
+    display: none; }
+  body .capital-letters {
+    color: #90251c; }
+
+@media (max-width: 599px) {
+  body {
+    max-width: 599px; }
+
+  section {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 4%; }
+    section .home-button-bio, section .home-button-contact, section .home-button-resume, section .home-button-projects {
+      width: 15%;
+      position: absolute;
+      right: 5%; }
+    section h2 {
+      text-align: center;
+      width: 25%;
+      margin: 13% auto 0 auto;
+      background: #89c64c;
+      border-radius: 5px; }
+    section h4 {
+      padding: 0% 8% 10% 8%;
+      text-align: justify; }
+
+  .contact h2 {
+    width: 50%; }
+  .contact h3 {
+    padding: 0% 8% 0% 8%; }
+
+  .resume h2 {
+    width: 50%; }
+  .resume h3 {
+    padding: 0% 8%;
+    margin-bottom: 0; }
+  .resume p {
+    padding: 0% 8%;
+    margin-top: 0; }
+
+  .projects h2 {
+    width: 50%; }
+  .projects h3, .projects p, .projects a {
+    padding: 0% 8%;
+    margin-bottom: 0; }
+
+  #main-logo {
+    width: 100%; }
+
+  nav {
+    width: 96%;
+    padding-top: 4%;
+    margin: 0 auto; }
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: space-between;
+      width: 85%;
+      align-items: flex-end;
+      padding: 0; }
+      nav ul li {
+        padding-left: 2%;
+        width: 40%; }
+        nav ul li h2 {
+          margin: 2% 0 25% 0;
+          text-align: center;
+          background: #89c64c;
+          border-radius: 4px; }
+    nav img {
+      width: 100%; }
+    nav #envelope {
+      width: 80%;
+      margin: 2px 13px; }
+    nav #resume {
+      width: 70%;
+      margin: 2px 19px; }
+
+  .bio {
+    position: absolute;
+    top: 4%; }
+
+  .full-stack, .web-developer {
+    position: absolute;
+    font-size: large; }
+
+  .full-stack {
+    left: 76%;
+    top: 24%; }
+
+  .web-developer {
+    left: 62%;
+    top: 27%; } }
+@media (min-width: 600px) {
+  main {
+    width: 23%; }
+    main #main-logo {
+      width: 100%; }
+    main .full-stack {
+      position: absolute;
+      top: 8%;
+      left: 15%; }
+    main .web-developer {
+      position: absolute;
+      top: 11%;
+      left: 15%; }
+
+  body {
+    max-width: 100%; }
+    body section {
+      max-width: 760px;
+      margin: 2% auto; }
+    body .home-page {
+      display: flex;
+      justify-content: space-between; }
+    body nav {
+      width: 73%; }
+      body nav ul {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end; }
+        body nav ul li {
+          width: 20%; }
+          body nav ul li h2 {
+            text-align: center;
+            background: #89c64c;
+            width: 75%;
+            margin: 0 auto;
+            border-radius: 5px; }
+          body nav ul li img {
+            margin: 0 25%;
+            width: 50%; }
+          body nav ul li #envelope, body nav ul li #resume {
+            margin: 0 32.5%;
+            width: 35%; }
+
+  .home-button-bio, .home-button-contact, .home-button-resume, .home-button-projects {
+    display: none; } }
+@media (min-width: 900px) {
+  main {
+    width: 23%; }
+    main #main-logo {
+      width: 100%; }
+    main .full-stack {
+      position: absolute;
+      top: 11%;
+      left: 15%; }
+    main .web-developer {
+      position: absolute;
+      top: 14%;
+      left: 15%; }
+
+  body {
+    max-width: 100%; }
+    body section {
+      max-width: 760px;
+      margin: 2% auto; }
+    body .home-page {
+      display: flex;
+      justify-content: space-between; }
+    body nav {
+      width: 73%; }
+      body nav ul {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end; }
+        body nav ul li {
+          width: 20%; }
+          body nav ul li h2 {
+            text-align: center;
+            background: #89c64c;
+            width: 75%;
+            margin: 0 auto;
+            border-radius: 5px; }
+          body nav ul li img {
+            margin: 0 25%;
+            width: 50%; }
+          body nav ul li #envelope, body nav ul li #resume {
+            margin: 0 32.5%;
+            width: 35%; }
+
+  .home-button-bio, .home-button-contact, .home-button-resume, .home-button-projects {
+    display: none; } }
+@media (min-width: 1200px) {
+  main {
+    width: 23%; }
+    main #main-logo {
+      width: 100%; }
+    main .full-stack {
+      position: absolute;
+      top: 17%;
+      left: 15%; }
+    main .web-developer {
+      position: absolute;
+      top: 20%;
+      left: 15%; }
+
+  body {
+    max-width: 100%; }
+    body section {
+      max-width: 760px;
+      margin: 2% auto; }
+    body .home-page {
+      display: flex;
+      justify-content: space-between; }
+    body nav {
+      width: 73%; }
+      body nav ul {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end; }
+        body nav ul li {
+          width: 20%; }
+          body nav ul li h2 {
+            text-align: center;
+            background: #89c64c;
+            width: 75%;
+            margin: 0 auto;
+            border-radius: 5px; }
+          body nav ul li img {
+            margin: 0 25%;
+            width: 50%; }
+          body nav ul li #envelope, body nav ul li #resume {
+            margin: 0 32.5%;
+            width: 35%; }
+
+  .home-button-bio, .home-button-contact, .home-button-resume, .home-button-projects {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
